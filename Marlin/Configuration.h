@@ -227,7 +227,7 @@
 
 // This defines the number of extruders
 // :[0, 1, 2, 3, 4, 5, 6, 7, 8]
-#define EXTRUDERS 2
+#define EXTRUDERS 1
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
@@ -537,7 +537,7 @@
  *
  */
 #define TEMP_SENSOR_0 1
-#define TEMP_SENSOR_1 1
+#define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
@@ -1658,13 +1658,13 @@
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
 #define INVERT_E0_DIR true
-#define INVERT_E1_DIR false
-#define INVERT_E2_DIR false
-#define INVERT_E3_DIR false
-#define INVERT_E4_DIR false
-#define INVERT_E5_DIR false
-#define INVERT_E6_DIR false
-#define INVERT_E7_DIR false
+//#define INVERT_E1_DIR false
+//#define INVERT_E2_DIR false
+//#define INVERT_E3_DIR false
+//#define INVERT_E4_DIR false
+//#define INVERT_E5_DIR false
+//#define INVERT_E6_DIR false
+//#define INVERT_E7_DIR false
 
 // @section homing
 

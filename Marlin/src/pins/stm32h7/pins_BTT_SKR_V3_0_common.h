@@ -37,7 +37,8 @@
   #endif
 #endif
 
-#define USES_DIAG_JUMPERS
+//#define USES_DIAG_JUMPERS
+define DIAG_JUMPERS_REMOVED
 
 // Onboard I2C EEPROM
 #if EITHER(NO_EEPROM_SELECTED, I2C_EEPROM)
